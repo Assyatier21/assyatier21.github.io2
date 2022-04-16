@@ -203,7 +203,7 @@ body {
 }
 
 .comingsoon a:hover {
-  color: blue;
+  color: #5584ac;
   font-size: 1.5em;
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .social-icons a:hover {
-  color: blue;
+  color: #5584ac;
 }
 
 li span a {
@@ -242,7 +242,7 @@ li span a:hover {
 
 .legal-links:hover {
   text-decoration: none;
-  color: blue;
+  color: #5584ac;
 }
 
 .legal a,
@@ -503,7 +503,7 @@ label {
 
 .form-control:focus {
   outline: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #5584ac;
   box-shadow: none;
 }
 
@@ -530,12 +530,12 @@ label {
 }
 
 .contact-des a:hover {
-  color: blue;
+  color: #5584ac;
 }
 
 .learn-btn:hover {
-  background: blue;
-  border: 2px solid blue;
+  background: #5584ac;
+  border: 2px solid #5584ac;
 }
 
 .contact-btn {
@@ -548,8 +548,8 @@ label {
 }
 
 .contact-btn:hover {
-  color: blue;
-  border: 2px solid blue;
+  color: #5584ac;
+  border: 2px solid #5584ac;
 }
 
 #hero-img {
@@ -590,7 +590,7 @@ li {
 }
 
 .social-icons {
-  margin-top: 30%;
+  margin-top: 15%;
 }
 
 .footer-full {
@@ -617,7 +617,7 @@ li {
 }
 
 .footer-credits a:hover {
-  color: blue;
+  color: #5584ac;
   text-decoration: none;
   font-weight: bold;
 }

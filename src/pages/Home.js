@@ -1,53 +1,110 @@
+import heroImg from "../assets/img/undraw_developer_activity.svg";
+
 const Home = () => {
   return (
-    <div
-      class="animated fadeIn row"
-      style={{ width: `100vw`, animationDuration: `1.5s` }}
-    >
-      <div class="col-md-6" id="left-hero">
-        <h1 class="hero-tag">
-          <span
-            class="typer"
-            id="main"
-            data-words="Hello, I'm Sholeh."
-            data-delay="100"
-            data-deleteDelay="1000"
-            data-loop="1"
-            style={{ color: `blue !important` }}
-          ></span>
-          &nbsp;
-        </h1>
-        <p class="hero-des">
-          I make elegantly professional <b>web</b> apps and <b> flutter</b> apps
-          for a living and also design
-          <b>user experiences</b>. If you want me to do any one of these for
-          you, get in touch with me here.
-        </p>
+    <div>
+      <div
+        className="animated fadeIn row"
+        style={{ width: `100vw`, animationDuration: `1.5s` }}
+      >
+        <div className="col-md-6" id="left-hero">
+          <h1 className="hero-tag">
+            <span
+              className="typer"
+              id="main"
+              data-words="Hello, I'm Sholeh."
+              data-delay="100"
+              data-deleteDelay="1000"
+              data-loop="1"
+              style={{ color: `#5584ac   !important` }}
+            ></span>
+            &nbsp;
+          </h1>
+          <p className="hero-des">
+            I'm a Software Engineer with experience in{" "}
+            <b>Website Development</b>, specializing in{" "}
+            <b>Frontend Development</b>. I use my skill in website development
+            to solve technological problem in businesses.
+          </p>
 
-        <button class="animated bounce delay-4s learn-btn">Learn More</button>
-        <a href="contact.html">
-          <button class="contact-btn">Contact Me</button>
-        </a>
-        <div class="social-icons">
-          <a target="_blank" href="mailto:ishandeveloper@outlook.com">
-            <i class="fas fa-envelope"></i>
+          <button className="animated bounce delay-4s learn-btn">
+            Learn More
+          </button>
+          <a href="contact.html">
+            <button className="contact-btn">Contact Me</button>
           </a>
-          <a target="_blank" href="https://instagram.com/developer.ishan">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a target="_blank" href="https://hackerrank.com/ishandeveloper">
-            <i class="fab fa-hackerrank"></i>
-          </a>
-          <a target="_blank" href="https://github.com/ishandeveloper">
-            <i class="fab fa-github"></i>
-          </a>
-          <a target="_blank" href="https://linkedin.com/in/ishandeveloper">
-            <i class="fab fa-linkedin"></i>
-          </a>
+          <div className="social-icons">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:muhammadsholeh.dev@gmail.com"
+            >
+              <i className="fas fa-envelope"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://web.facebook.com/baabud.sholeh.9/"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.hackerrank.com/Assyatier11"
+            >
+              <i className="fab fa-hackerrank"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Assyatier21"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://linkedin.com/in/muhammad-sholeh11"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <div className="col-md-6" id="hero-right">
+          <img id="hero-img" src={heroImg} />
         </div>
       </div>
-      <div class="col-md-6" id="hero-right">
-        kanan
+      <div className="menu-wrap">
+        <input type="checkbox" className="toggler" />
+        <div className="hamburger">
+          <div></div>
+        </div>
+        <div className="menu">
+          <div>
+            <div>
+              <ul>
+                <li>
+                  <a href="#" style={{ textDecoration: `line-through` }}>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="work.html">Work</a>
+                </li>
+                <li>
+                  <a href="#">Uses</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
