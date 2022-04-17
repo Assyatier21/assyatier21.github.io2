@@ -27,12 +27,27 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-159411627-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-159411627-1");
+    </script>
     <!-- External CDN -->
 
     <title>Assyatier Portofolio</title>
   </head>
   <body id="index-body" style="overflow: hidden">
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -45,6 +60,10 @@
       To create a production bundle, use `npm run build` or `yarn build`.
       
     -->
-    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script
+      async
+      src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"
+      crossorigin
+    ></script>
   </body>
 </html>

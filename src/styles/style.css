@@ -20,6 +20,11 @@
   --white-color: #fff;
   --hero-color: black;
 }
+
+.activeNav {
+  text-decoration: underline !important;
+  font-weight: bold;
+}
 .work-hero-card {
   display: block;
   margin: 0 auto;

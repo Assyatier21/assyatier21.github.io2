@@ -1,4 +1,6 @@
 import heroImg from "../assets/img/undraw_developer_activity.svg";
+import { Link } from "react-router-dom";
+import MediaSosial from "../components/MediaSosial";
 
 const Home = () => {
   return (
@@ -16,7 +18,7 @@ const Home = () => {
               data-delay="100"
               data-deleteDelay="1000"
               data-loop="1"
-              style={{ color: `#5584ac   !important` }}
+              style={{ color: `#5584ac !important` }}
             ></span>
             &nbsp;
           </h1>
@@ -30,80 +32,16 @@ const Home = () => {
           <button className="animated bounce delay-4s learn-btn">
             Learn More
           </button>
-          <a href="contact.html">
+          <Link to="/contact">
             <button className="contact-btn">Contact Me</button>
-          </a>
+          </Link>
+
           <div className="social-icons">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="mailto:muhammadsholeh.dev@gmail.com"
-            >
-              <i className="fas fa-envelope"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://web.facebook.com/baabud.sholeh.9/"
-            >
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.hackerrank.com/Assyatier11"
-            >
-              <i className="fab fa-hackerrank"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/Assyatier21"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://linkedin.com/in/muhammad-sholeh11"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
+            <MediaSosial />
           </div>
         </div>
-        <div className="col-md-6" id="hero-right">
-          <img id="hero-img" src={heroImg} />
-        </div>
-      </div>
-      <div className="menu-wrap">
-        <input type="checkbox" className="toggler" />
-        <div className="hamburger">
-          <div></div>
-        </div>
-        <div className="menu">
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <a href="#" style={{ textDecoration: `line-through` }}>
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="work.html">Work</a>
-                </li>
-                <li>
-                  <a href="#">Uses</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div className="col-md-6 " id="hero-right">
+          <img id="hero-img" alt="Hero-IMG" src={heroImg} />
         </div>
       </div>
     </div>
