@@ -20,7 +20,9 @@
   --white-color: #fff;
   --hero-color: black;
 }
-
+.blue {
+  color: #5584ac !important;
+}
 .activeNav {
   text-decoration: underline !important;
   font-weight: bold;
@@ -42,12 +44,15 @@
 }
 #work-text {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
 }
 .work-hero-card h1 {
   padding-top: 20px;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: bold;
 }
 .work-hero-card:hover {

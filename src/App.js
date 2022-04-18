@@ -3,6 +3,7 @@ import MyNavbar from "./components/MyNavbar";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
@@ -21,6 +22,12 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Helmet>
+        <script
+          type="text/javascript"
+          src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"
+        />
+      </Helmet>
     </Router>
   );
 }

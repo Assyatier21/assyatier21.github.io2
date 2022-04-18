@@ -4,7 +4,7 @@ import codeIcon from "../assets/img/logo2.png";
 const MyNavbar = () => {
   return (
     <div>
-      <nav className="nav-desk">
+      <nav className="nav-desk align-items-center">
         <center>
           <div className="nav-logo">
             <NavLink exact to="/">

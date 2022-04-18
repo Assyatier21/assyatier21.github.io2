@@ -12,21 +12,21 @@ const Home = () => {
         <div className="col-md-6" id="left-hero">
           <h1 className="hero-tag">
             <span
-              className="typer"
+              className="typer blue"
               id="main"
               data-words="Hello, I'm Sholeh."
               data-delay="100"
               data-deleteDelay="1000"
               data-loop="1"
-              style={{ color: `#5584ac !important` }}
+              style={{ color: `#5584ac` }}
             ></span>
             &nbsp;
           </h1>
           <p className="hero-des">
             I'm a Software Engineer with experience in{" "}
-            <b>Website Development</b>, specializing in{" "}
-            <b>Frontend Development</b>. I use my skill in website development
-            to solve technological problem in businesses.
+            <b className="blue">Website Development</b>, specializing in{" "}
+            <b className="blue">Frontend Development</b>. I use my skill in
+            website development to solve technological problem in businesses.
           </p>
 
           <button className="animated bounce delay-4s learn-btn">
