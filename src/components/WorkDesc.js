@@ -1,42 +1,34 @@
+import logoKisel from "../assets/img/work/alea/logo-kisel-tp.png";
+
+import { Link } from "react-router-dom";
+
 const WorkDesc = () => {
   return (
     <div>
-      <h1>Hotspoter</h1>
+      <h1>ALEA</h1>
       <p>
-        Hotspoter is special software that allows users to transform their
-        computer into a wireless router. This is ideal for people who are
-        looking for a way to use their existing internet connection to surf on
-        their Smartphone, while the connection can also be shared with a large
-        number of different people at the same time without weakening the signal
-        strength.
+        ALEA is an asset auction application that performs its function as a
+        forum for online-based auction activities belonging to Kisel Indonesia.
+        This application is an innovation in the implementation of auctions
+        which were previously still manual.
       </p>
-      <div class="technologies">
+      <div className="technologies">
         <h2>Technologies Used</h2>
-        <span class="tech-stack"> CSharp </span>
-        <span class="tech-stack"> .Net Framework </span>
+        <span className="tech-stack"> NextJS </span>
+        <span className="tech-stack"> React-Bootstrap </span>
       </div>
-      <div class="technologies featured">
+      <div className="technologies featured">
         <h2>Featured On</h2>
-        <span class="partners">
-          <a target="_blank" href="https://hotspoter.en.softonic.com">
-            <img
-              id="partner-logo"
-              src="assets/img/work/hotspoter/softonic.png"
-              style={{ padding: `10px` }}
-            />
-          </a>
-        </span>
-        <span class="partners">
-          <a
+        <span className="partners">
+          <Link
+            onClick={() =>
+              (window.location = "http://alea.kiselindonesia.com:8083/")
+            }
             target="_blank"
-            href="https://download.cnet.com/Hotspoter/3000-18508_4-76462434.html"
+            rel="noreferrer"
           >
-            <img
-              id="partner-logo"
-              src="assets/img/work/hotspoter/cnet.png"
-              style={{ borderRadius: `50%` }}
-            />
-          </a>
+            <img id="partner-logo" src={logoKisel} style={{ padding: `2px` }} />
+          </Link>
         </span>
       </div>
     </div>

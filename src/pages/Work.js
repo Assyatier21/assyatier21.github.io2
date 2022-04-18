@@ -1,4 +1,4 @@
-import HotspotHero from "../assets/img/work/hotspoter/hotspoter-hero.png";
+import heroAlea from "../assets/img/work/alea/hero-alea.png";
 import WorkDesc from "../components/WorkDesc";
 
 const Work = () => {
@@ -21,7 +21,7 @@ const Work = () => {
             <div class="col-md-6 col-sm-12 bounceInLeft delay-2s">
               <center>
                 <div class="work-hero">
-                  <img class="work-hero-img" src={HotspotHero} />
+                  <img class="work-hero-img" src={heroAlea} />
                 </div>
               </center>
             </div>
@@ -32,6 +32,31 @@ const Work = () => {
             </div>
           </div>
           {/*------------------ First Content ------------------ */}
+
+          {/*------------------ Second Content ------------------ */}
+          <div class="row work-double-row">
+            <div class="col-md-6 col-sm-12 bounceInLeft delay-3s">
+              <div class="work-hero-card">
+                <img
+                  class="work-card-hero-img"
+                  src="assets/img/work/mehak/hero.png"
+                />
+                <h1>mehaksharma.co</h1>
+                <div id="work-text">PORTFOLIO</div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 bounceInRight delay-3s">
+              <div class="work-hero-card">
+                <img
+                  class="work-card-hero-img"
+                  src="assets/img/work/ishandeveloper/hero.png"
+                />
+                <h1>ishandeveloper.com</h1>
+                <div id="work-text">PORTFOLIO</div>
+              </div>
+            </div>
+          </div>
+          {/*------------------ Second Content ------------------ */}
         </div>
       </div>
     </div>
