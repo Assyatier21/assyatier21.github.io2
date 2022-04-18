@@ -1,7 +1,7 @@
 {
   "name": "my-portofolio",
   "version": "0.1.0",
-  "homepage": "https://Assyatier21.github.io/react-gh-pages",
+  "homepage": "https://assyatier21.github.io/",
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.17.9",

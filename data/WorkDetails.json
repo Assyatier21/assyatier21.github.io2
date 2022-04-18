@@ -1,0 +1,29 @@
+{
+  "work": [
+    {
+      "hero-url": "../assets/img/work/alea/hero-alea.png",
+      "title": "SIFALIB",
+      "type": "Web Application",
+      "id": 1
+    },
+
+    {
+      "hero-url": "../assets/img/work/alea/hero-alea.png",
+      "title": "SIDILAN",
+      "type": "Web Application",
+      "id": 2
+    },
+    {
+      "hero-url": "../assets/img/work/alea/hero-alea.png",
+      "title": "MILEA",
+      "type": "Web Application",
+      "id": 3
+    },
+    {
+      "hero-url": "../assets/img/work/alea/hero-alea.png",
+      "title": "My-Portofolio",
+      "type": "Portofolio",
+      "id": 4
+    }
+  ]
+}
