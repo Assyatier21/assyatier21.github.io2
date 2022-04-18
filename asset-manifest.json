@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.6d224145.css",
-    "main.js": "/react-gh-pages/static/js/main.6fd015f4.js",
-    "static/media/CircularStd-Bold.svg": "/react-gh-pages/static/media/CircularStd-Bold.0961ed436a6676c009d7.svg",
-    "static/media/hero-alea.png": "/react-gh-pages/static/media/hero-alea.601301e36f8d35ef91a2.png",
-    "static/media/CircularStd-Bold.eot": "/react-gh-pages/static/media/CircularStd-Bold.d0d14e8484479546f8c5.eot",
-    "static/media/CircularStd-Bold.ttf": "/react-gh-pages/static/media/CircularStd-Bold.544334209f41ff0b1ebb.ttf",
-    "static/media/CircularStd-Bold.woff": "/react-gh-pages/static/media/CircularStd-Bold.4bae1919c290b4010366.woff",
-    "static/media/logo-kisel-tp.png": "/react-gh-pages/static/media/logo-kisel-tp.5a5597f8980e42bdaac3.png",
-    "static/media/logo2.png": "/react-gh-pages/static/media/logo2.126d5784d4b7f23ebc86.png",
-    "static/media/undraw_developer_activity.svg": "/react-gh-pages/static/media/undraw_developer_activity.66670d39985f767cd428cfaa5d2d210e.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.6d224145.css.map": "/react-gh-pages/static/css/main.6d224145.css.map",
-    "main.6fd015f4.js.map": "/react-gh-pages/static/js/main.6fd015f4.js.map"
+    "main.css": "/static/css/main.79fbb431.css",
+    "main.js": "/static/js/main.87504672.js",
+    "static/media/CircularStd-Bold.svg": "/static/media/CircularStd-Bold.0961ed436a6676c009d7.svg",
+    "static/media/hero-alea.png": "/static/media/hero-alea.601301e36f8d35ef91a2.png",
+    "static/media/CircularStd-Bold.eot": "/static/media/CircularStd-Bold.d0d14e8484479546f8c5.eot",
+    "static/media/CircularStd-Bold.ttf": "/static/media/CircularStd-Bold.544334209f41ff0b1ebb.ttf",
+    "static/media/CircularStd-Bold.woff": "/static/media/CircularStd-Bold.4bae1919c290b4010366.woff",
+    "static/media/logo-kisel-tp.png": "/static/media/logo-kisel-tp.5a5597f8980e42bdaac3.png",
+    "static/media/logo2.png": "/static/media/logo2.126d5784d4b7f23ebc86.png",
+    "static/media/undraw_developer_activity.svg": "/static/media/undraw_developer_activity.66670d39985f767cd428cfaa5d2d210e.svg",
+    "index.html": "/index.html",
+    "main.79fbb431.css.map": "/static/css/main.79fbb431.css.map",
+    "main.87504672.js.map": "/static/js/main.87504672.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d224145.css",
-    "static/js/main.6fd015f4.js"
+    "static/css/main.79fbb431.css",
+    "static/js/main.87504672.js"
   ]
 }
