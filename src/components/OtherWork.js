@@ -17,7 +17,7 @@ const OtherWork = () => {
             <div id="work-text">WEB APPLICATION</div>
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 delay-3s">
+        <div className="col-md-6 col-sm-12 delay-3s mtup">
           <div className="work-hero-card">
             <img className="work-card-hero-img" src={heroPorto} alt="hero" />
             <h1>MY PORTOFOLIO</h1>
@@ -39,7 +39,7 @@ const OtherWork = () => {
             <div id="work-text">WEB APPLICATION</div>
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 delay-3s">
+        <div className="col-md-6 col-sm-12 delay-3s mtup">
           <div className="work-hero-card">
             <img className="work-card-hero-img" src={heroDilan} alt="hero" />
             <h1>SI-DILAN </h1>
